@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background-color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.movies-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 1rem;
+}
+.nav-logo {
+  max-width: 100px;
+}
+#search {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  margin: auto;
+}
+#movieBox {
+  /* height: 80vh; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 100px;
+  margin: 2rem;
+  margin-left: 8rem;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 100px;
+}
+a {
+  text-decoration: none;
+  color: #432818;
+}
+h1 {
+  font-size: 1rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+
+header {
+  min-height: 15vh;
+  background-color: #f2e9e4;
+}
+
+.container {
+  display: flex;
+  gap: 40px 80px;
+  margin: 2.5rem;
+  max-width: 400px;
+  /* margin-right: -4rem; */
+}
+.container img {
+  height: 362px;
+  background-size: cover;
+  box-shadow: 10px 10px 20px black;
+  /* filter: drop-shadow(2px 4px 6px black); */
+}
+.container p {
+  display: block;
+  width: 175px;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #d4a373;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-family: cursive;
+}
+span {
+  color: #220901;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container span :hover {
+  background-color: #f2e9e4;
+  color: #99582a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container h5 {
+  margin: 0rem 2rem 0rem 1rem;
+  font-family: italic;
+}
+.overview {
+  color: red;
+  display: block;
+  width: 12rem;
+  font-size: 1rem;
+}
+
+footer {
+  background: #f2e9e4;
+  height: 100px;
+}
+footer p {
+  color: rgb(32, 28, 28);
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 3rem;
+  font-family: math;
+}
