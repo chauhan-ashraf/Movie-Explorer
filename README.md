@@ -1,0 +1,1 @@
+# Movie Explorer Web Application, Where user can search any movie, User will get movie poster ,ratings, movie name etc.
